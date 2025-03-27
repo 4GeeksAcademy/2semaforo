@@ -1,9 +1,11 @@
 import React from "react";
 
 import Semaforo from "./Semaforo"
+import Palito from "./Palito";
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div >
+			<Palito/>
 			<Semaforo/>
 		</div>
 	);

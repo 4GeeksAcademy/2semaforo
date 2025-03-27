@@ -21,3 +21,9 @@
     box-shadow: 0 0 20px 10px rgba(9, 255, 0, 0.7)
     
 }
+.Semaforo{
+    width: 120px;
+    height: 250px;
+    background-color: red;
+    border-radius: 10px;
+}

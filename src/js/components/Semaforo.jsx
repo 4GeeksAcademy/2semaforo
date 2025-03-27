@@ -20,8 +20,8 @@ const Semaforo = () => {
  }
     console.log ({color})
      return (
-        <div className="bg-dark text-center">
-            <div className="container text-center d-flex flex-column p-5">
+        <div className="Semaforo bg-dark justify-content-center align-items-center vh-10">
+            <div className="container">
             <div className={`luz Rojo ${color==="Rojo"? "activo" : " "}`} 
             onClick={()=>{setColor("Rojo")}}></div>
             <div className={`luz Amarillo ${color==="Amarillo"? "activo" : " "}`}
